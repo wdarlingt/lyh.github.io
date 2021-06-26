@@ -1,0 +1,40 @@
+body {
+    background-image: url("../Background/首页背景图2.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.lyhbiaoti{
+    -webkit-background-clip: text;
+    background-clip: text;
+    background-image:linear-gradient(rgb(98, 237, 241),rgb(52, 55, 241));
+    font-size: 30pt;
+    font-weight: bold;
+    font-family: 楷体;
+    -webkit-text-fill-color: transparent;
+
+    color: #3079ed;
+    animation-name: focus-in-contract;
+    animation-duration: 2s;
+    animation-timing-function: ease;
+    animation-delay: 0s;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+    animation-fill-mode: none;
+    }
+    @keyframes focus-in-contract {
+    0%{
+        letter-spacing: 1em;
+        filter: blur(12px);
+        opacity: 0;
+    }
+    100%{
+        filter: blur(0);
+        opacity: 1;
+    }
+    }
+a:hover{
+    color: rgb(255, 255, 255);
+    font-size: 30pt;
+}

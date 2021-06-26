@@ -1,0 +1,125 @@
+body {
+    display: block;
+    margin: 0px;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+}
+.donghuazhaopian{
+    width: 265px;
+    animation-name: scale-in-tl;
+    animation-duration: 1s;
+    animation-timing-function: ease;
+    animation-delay: 0s;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+    animation-fill-mode: none;
+    }
+    @keyframes scale-in-tl {
+    0%{
+        -webkit-transform: scale(0);
+        transform: scale(0);
+        -webkit-transform-origin: 0% 0%;
+        transform-origin: 0% 0%;
+        opacity: 1;
+    }
+    100%{
+        -webkit-transform: scale(1);
+        transform: scale(1);
+        -webkit-transform-origin: 0% 0%;
+        transform-origin: 0% 0%;
+        opacity: 1;
+    }
+}
+.jianjiedahezi{
+    width: 100%;
+    height: 800px;
+    margin: 0;
+    background-image: url(../Background/海洋背景图.jpg);
+}
+.biglead {
+    width: 100%;
+    height: 100px;
+    margin: 0 auto;
+    /* background:url(../Background/题头背景图.jpg); */
+    background-size:cover;
+}
+.bigleadinner {
+    width: 1017.6px;
+    height: 100px;
+    margin: 0 auto;
+}
+.tableContainer {
+    display: table;
+}
+.tableRow {
+    display: table-row;
+}
+.shouye {
+    display: table-cell;
+    width: 320px;
+    height: 100px;
+    padding: 30px;
+    font-family: sans-serif;
+    font-size: 130%;
+    font-weight: bold;
+    margin: 0;
+    color: #fff;
+    text-align: center;
+}
+a{
+    font-family: 楷体;
+    font-size: larger;
+    text-decoration:none;
+    color: rgb(2, 2, 2);
+}
+a:hover{
+    color: red;
+    transition: 0.6s;
+}
+table {
+    display: table;
+    border-collapse: separate;
+    box-sizing: border-box;
+    text-indent: initial;
+    border-color: grey;
+}
+.zhaopian{
+    /* background: url(../Background/题头背景图.jpg); */
+    /* 图片规格可以通过cover缩放来达到占满格子的目的 */
+    background-size:cover;
+    border: none;
+}
+.biaoti{
+    /* background: url(../Background/题头背景图.jpg); */
+    background-size:cover;
+    border: none;
+}
+.gerenjianjie{
+    width: 400px;
+    /* background:url(../Background/题头背景图.jpg); */
+    background-size:cover;
+    font-size: 22px;
+    font-family: 楷体;
+    border: none;
+}
+.gerenjingli{
+    /* background: url(../Background/题头背景图.jpg); */
+    background-size:873.6px 433.2px;
+    font-family: 楷体;
+    font-size: 22px;
+    border: none;
+}
+.jieshaoyeweiba{
+    width: 100%;
+    height: 170px;
+    /* background: url(../Background/题头背景图2.jpg); */
+}
+.yejiao{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    font-family: 楷体;
+    font-style:italic;
+}
